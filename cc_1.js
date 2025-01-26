@@ -33,3 +33,8 @@ accountBalance *=2;
 console.log(accountBalance); //13,900
 accountBalance /=1.5;
 console.log(accountBalance); //9,266.67
+
+//Task 4: String Data Type
+let customerName = "Montgomery Gentry";
+let welcomeMessage = "Welcome Back " + customerName + " to our storefront!";
+console.log(welcomeMessage); //Welcome Back Montgomery Gentry to our storefront
