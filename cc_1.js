@@ -38,3 +38,12 @@ console.log(accountBalance); //9,266.67
 let customerName = "Montgomery Gentry";
 let welcomeMessage = "Welcome Back " + customerName + " to our storefront!";
 console.log(welcomeMessage); //Welcome Back Montgomery Gentry to our storefront
+
+//Task 5: Boolean Data Type
+let isLoggedIn = true;
+let yesloggedin = isLoggedIn && true;
+if (yesloggedin) {
+    console.log("Access permitted");
+} else {
+    console.log("Access denied");
+}
